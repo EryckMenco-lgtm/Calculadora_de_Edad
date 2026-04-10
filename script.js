@@ -10,6 +10,7 @@ function calcularEdad() {
 
   if (fechaInput === "") {
     resultado.innerText = "Llena los campos.";
+    alert("Llena los campos");
     return;
   }
 
