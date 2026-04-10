@@ -1,0 +1,48 @@
+body {
+  font-family: fantasy;
+  background-color: #ccd4f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+ font-size: 30px;
+ color: rgb(62, 62, 62); 
+}
+
+.contenedor {
+background: rgb(255, 255, 255);
+padding: 30px;
+border-radius: 15px;
+text-align: center;
+width: 300px;
+box-shadow: 10px 15px 25px rgba(0, 0, 0, 0.644);
+}
+
+input, button {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #ff0122;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #470dd1;
+}
+
+#resultado {
+    color: rgb(62, 62, 62);
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}
